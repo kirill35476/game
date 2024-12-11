@@ -1,13 +1,8 @@
 from tkinter import *
 from pickle import load, dump
+import menu
 
 def set_status():
-    pass
-
-def pause_toggle():
-    pass
-
-def menu_toggle():
     pass
 
 def key_handler():
@@ -21,10 +16,6 @@ def check_finish():
 game_width = 800
 game_height = 800
 
-KEY_UP = 87
-KEY_DOWN = 83
-KEY_ESC = 27
-KEY_ENTER = 13
 
 player_size = 100
 x1, y1 = 50, 50
